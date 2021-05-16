@@ -1,6 +1,6 @@
 # Description: Boxstarter Script
 # Author: Microsoft
-# Common dev settings for machine learning using only Windows native tools
+# Common dev settings for desktop app development
 
 Disable-UAC
 
@@ -25,9 +25,10 @@ function executeScript {
 executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
-executeScript "GetMLIDEAndTooling.ps1";
-executeScript "PythonMLTools.ps1";
+executeScript "Plex.ps1";
 
+
+#--- reenabling critial items ---
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
