@@ -34,8 +34,8 @@ To run a recipe script, click a link in the table below from your target machine
 
 |Click link to run  |Description  |
 |---------|---------|
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Microsoft/windows-dev-box-setup-scripts/master/CommonSetup.ps1'>Common Setup</a>     | Windows Desktop Usual Apps |
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Microsoft/windows-dev-box-setup-scripts/master/MediaSetup.ps1'>Plex</a>     | Only what is required for Plex server |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/jeanremacle/windows-dev-box-setup-scripts/master/CommonSetup.ps1'>Common Setup</a>     | Windows Desktop Usual Apps |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/jeanremacle/windows-dev-box-setup-scripts/master/MediaSetup.ps1'>Plex</a>     | Only what is required for Plex server |
 
 **Notes:**  
 1. If you are using WSL there's a followup step we recommend after running the setup script.  When the script finishes you will only have a root user with a blank password. You should  manually create a non-root user via `$ sudo adduser [USERNAME] sudo` 
