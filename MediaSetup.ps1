@@ -25,7 +25,7 @@ function executeScript {
 executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
-executeScript "Plex.ps1";
+executeScript "plex.ps1";
 
 
 #--- reenabling critial items ---
